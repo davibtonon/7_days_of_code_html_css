@@ -1,0 +1,12 @@
+@import url('cabecalho.css');
+
+:root {
+    --cinza-claro: #667085;
+    --cinza-escuro: #3A404E;
+    --roxo: #8E2424;
+}
+
+
+body {
+    font-size: 16px;
+}
