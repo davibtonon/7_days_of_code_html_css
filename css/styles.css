@@ -1,12 +1,17 @@
 @import url('cabecalho.css');
+@import url('header.css');
 
 :root {
     --cinza-claro: #667085;
     --cinza-escuro: #3A404E;
     --roxo: #8E2424;
+    --preto: #101828;
 }
 
 
 body {
     font-size: 16px;
+    color: var(--cinza-claro);
+    font-family: 'Inter';
+    font-weight: 400;
 }
