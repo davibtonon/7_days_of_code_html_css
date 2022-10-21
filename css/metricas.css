@@ -1,0 +1,33 @@
+.metricas {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    margin: 30px;
+}
+
+.metricas__item {
+    padding: 1em;
+    text-align: left;
+}
+
+.metricas__item--numero {
+    color: var(--vermelho);
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 600;
+}
+
+.metricas__item--titulo {
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0.2em;
+
+}
+
+.metricas__item--texto {
+    line-height: 24px;
+    text-align: left;
+}
