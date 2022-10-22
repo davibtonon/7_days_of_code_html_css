@@ -7,6 +7,7 @@
     --vermelho: #8E2424;
     --preto: #101828;
     --vermelho-claro:  rgba(142, 36, 36, 0.05);
+    --card-depoimentos:rgba(196, 25, 25, 0.03);
 }
 
 
@@ -156,4 +157,53 @@ body {
 .card_vaga__informacoes--salario {
     padding: 1em;
     font-weight: 500;
+}
+
+.depoimentos {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 16px;
+    margin: 0 auto;
+
+    background: var(--card-depoimentos);
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.depoimentos__alerta {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.depoimentos__texto {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: var(--preto);
+
+}
+
+.depoimentos__colaborador {
+    background-image: url('../img/Avatar.svg');
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+}
+
+.depoimentos__nome {
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--preto);
+
+}
+
+.depoimentos__cargo {
+    font-size: 14px;
+    color: var(--cinza-claro);
 }
